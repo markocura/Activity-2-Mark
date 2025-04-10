@@ -33,6 +33,7 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
     text-transform: uppercase;
+    color: #304438;
 
 }
 
@@ -55,19 +56,21 @@
  #banner p {
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: burlywood;
  }
  .card-img-top {
     width: 35%;
  }
  .card {
     padding: 25px 20px;
-    border: 2px solid rgb(red, green, blue);
+    border: 3px solid rgb(red, green, blue);
     transition: all ease-in .4s;
  }
  .card:hover{
     box-shadow: 0 0 45px 0 rgb(red, green, blue);
     transform: scale(1.1);
     background-color: gray;
+    border-color: #FFF;
  }
  .card:hover .card-title,
  .card:hover .card-text {
@@ -77,10 +80,77 @@
  section {
     padding: 100px 0;
  }
- #sugpon
- h2{
+ #sugpon h2{
     font-family: 'Times New Roman', Times, serif;
     font-size: 65px;
     color: red;
     margin-bottom: 30px;
+    text-align: center;
+ }
+ #about {
+   background-color: aliceblue;
+ }
+ #about img {
+   border: 5px solid pink;
+ }
+ #about .btn-brand {
+   background-color: #304438;
+   color: antiquewhite;
+ }
+ #about h2
+ {
+color: aquamarine;
+font-size: 55px;
+ }
+ .wew {
+   width: 65px;
+ }
+ .testimonials{
+   border: 3px solid brown;
+   padding: 20px;
+   margin-top: 20px;
+   transition: all ease-in .4s;
+ }
+ .testimonials:hover
+ {
+transform: scale(1.1);
+ }
+ #reviews h2
+ {
+font-size: 55px;
+ }
+ #faq{
+   max-width: 800px;
+   margin: auto;
+ }
+ .accordion-item{
+   margin-bottom: 20px;
+   border-radius: 0 !important;
+ }
+ .accordion-button{
+   background-color: aliceblue;
+   border: none;
+   border-bottom: #304438;
+   border-radius: 0 !important;
+   padding: 15px;
+   font-size: 18px;
+   font-weight: 500;
+   color: #304438;
+   cursor: pointer;
+   transition: backround-color .3s, color 0.3;
+ }
+ .accordion-body{
+   border-left: #304438;
+   padding: 10px 15px;
+   margin-left: 0;
+   background-color: aliceblue;
+ }
+ .accordion-button:not(.collapsed)
+ {
+   background-color: aliceblue;
+   color: #FFF;
+ }
+ .accordion-button:hover{
+   background-color: #304438;
+   color: aliceblue;
  }
